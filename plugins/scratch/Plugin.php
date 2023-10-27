@@ -1,0 +1,153 @@
+<?php
+/**
+ * @copyright ©2018 hook007
+ * author: opmall
+ * @link https://www.opmall.com/
+ * Created by IntelliJ IDEA
+ * Date Time: 2018/10/30 14:42
+ */
+
+namespace app\plugins\scratch;
+
+use app\forms\OrderConfig;
+use app\helpers\PluginHelper;
+use app\plugins\scratch\handlers\HandlerRegister;
+use app\handlers\HandlerBase;
+
+class Plugin extends \app\plugins\Plugin
+{
+    public function getMenus()
+    {
+        return [
+            [
+                'name' => \Yii::t('plugins/scratch', '基本配置'),
+                'route' => 'plugin/scratch/mall/setting/index',
+                'icon' => 'el-icon-star-on',
+            ],
+            [
+                'name' => \Yii::t('plugins/scratch', '奖品列表'),
+                'route' => 'plugin/scratch/mall/scratch/index',
+                'icon' => 'el-icon-star-on',
+                'action' => [
+                    [
+                        'name' => '奖品编辑',
+                        'route' => 'plugin/scratch/mall/scratch/edit',
+                    ],
+                ]
+            ],
+            [
+                'name' => \Yii::t('plugins/scratch', '抽奖记录'),
+                'route' => 'plugin/scratch/mall/log/index',
+                'icon' => 'el-icon-star-on',
+            ],
+            [
+                'name' => \Yii::t('plugins/scratch', '赠品订单'),
+                'route' => 'plugin/scratch/mall/order/index',
+                'icon' => 'el-icon-star-on',
+                'action' => [
+                    [
+                        'name' => '订单详情',
+                        'route' => 'plugin/scratch/mall/order/detail',
+                    ],
+                ]
+            ],
+        ];
+    }
+
+    public function handler()
+    {
+        $register = new HandlerRegister();
+        $HandlerClasses = $register->getHandlers();
+        foreach ($HandlerClasses as $HandlerClass) {
+            $handler = new $HandlerClass();
+            if ($handler instanceof HandlerBase) {
+                /** @var HandlerBase $handler */
+                $handler->register();
+            }
+        }
+    }
+
+    /**
+     * 插件唯一id，小写英文开头，仅限小写英文、数字、下划线
+     * @return string
+     */
+    public function getName()
+    {
+        return 'scratch';
+    }
+
+    /**
+     * 插件显示名称
+     * @return string
+     */
+    public function getDisplayName()
+    {
+        return \Yii::t('plugins/scratch', '刮刮卡');
+    }
+
+    public function getAppConfig()
+    {
+        $imageBaseUrl = PluginHelper::getPluginBaseAssetsUrl($this->getName()) . '/img';
+        return [
+            'app_image' => [
+                'scratch_bg' => $imageBaseUrl . '/scratch-bg.png',
+                'scratch_win' => $imageBaseUrl . '/scratch-win.png'
+            ],
+        ];
+    }
+
+    public function getIndexRoute()
+    {
+        return 'plugin/scratch/mall/scratch/index';
+    }
+
+    public function getPickLink()
+    {
+        $iconBaseUrl = PluginHelper::getPluginBaseAssetsUrl($this->getName()) . '/img/pick-link';
+
+        return [
+            [
+                'key' => 'scratch',
+                'name' => \Yii::t('plugins/scratch', '刮刮卡'),
+                'open_type' => '',
+                'icon' => $iconBaseUrl . '/icon-scratch.png',
+                'value' => '/plugins/scratch/index/index',
+                'ignore' => [],
+            ],
+        ];
+    }
+
+    public function getOrderConfig()
+    {
+//        $setting = CommonScratch::getSetting();
+        return new OrderConfig([
+            'is_sms' => 1,
+            'is_print' => 1,
+            'is_mail' => 1,
+            'is_share' => 0,
+            'support_share' => 1,
+        ]);
+    }
+
+    public function getBlackList()
+    {
+        return [
+            'plugin/scratch/api/scratch/order-submit',
+        ];
+    }
+
+    public function supportEcard()
+    {
+        return true;
+    }
+
+    public function goodsAuth()
+    {
+        $config = parent::goodsAuth();
+        $config['is_show_and_buy_auth'] = false;
+        $config['is_min_number'] = false;
+        $config['is_limit_buy'] = false;
+        $config['is_time'] = false;
+        return $config;
+    }
+}

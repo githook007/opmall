@@ -1,0 +1,25 @@
+<?php
+return [
+// views/mall/goods_attr_template/index
+    '规格模板' => 'Specification template',
+    '新增模板管理' => 'Add template management',
+    '请输入规格名或规格值搜索' => 'Please enter the specification name or specification value to search',
+    '操作' => 'Operation',
+    '编辑' => 'Edit',
+    '删除' => 'Delete',
+    '规格名' => 'Specification name',
+    '请输入规格名' => 'Please enter the specification name',
+    '规格值' => 'Specification value',
+    '请输入规格值' => 'Please enter the specification value',
+    '添加规格值' => 'Add specification value',
+    '取消' => 'Cancel',
+    '保存' => 'Save',
+    '规格名不能为空' => 'Specification name cannot be empty',
+    '规格名称不能包含' => 'Specification name cannot contain',
+    '等特殊符' => 'other special characters',
+    '规格值不能为空' => 'Specification value cannot be empty',
+    '规格值不能重复' => 'Specification values cannot be repeated',
+    '新增规格模板' => 'Add specification template',
+    '编辑规格模板' => 'Edit specification template',
+    '确认删除该记录吗' => 'Are you sure to delete this record',
+    '提示' => 'Prompt',];

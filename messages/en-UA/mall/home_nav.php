@@ -1,0 +1,33 @@
+<?php
+return [
+// views/mall/home_nav/edit
+    '导航图标编辑' => 'Navigation icon editing',
+    '请输入名称' => 'Please enter a name',
+    '请输入排序' => 'Please enter the sort',
+    '建议尺寸88' => 'Recommended size 88*88',
+    '选择文件' => 'Select file',
+    '选择链接' => 'Select link',
+    '保存' => 'Save',
+    '请输入导航名称' => 'Please enter the navigation name',
+    '请输入导航排序' => 'Please enter the navigation order',
+    '请选择导航图标' => 'Please select the navigation icon',
+    '请选择导航链接' => 'Please select a navigation link',
+    '请选择是否显示' => 'Please choose whether to display',
+    // views/mall/home_nav/index
+    '导航图标列表' => 'navigation icon list',
+    '添加导航图标' => 'Add navigation icon',
+    '请输入搜索内容' => 'Please enter the search content',
+    '名称' => 'name',
+    '导航图标' => 'Navigation icon',
+    '导航链接' => 'Navigation link',
+    '排序' => 'sort',
+    '是否显示' => 'whether to display',
+    '操作' => 'Operation',
+    '编辑' => 'Edit',
+    '删除' => 'Delete',
+    '删除该条数据' => 'Delete this piece of data, whether to continue',
+    '提示' => 'Prompt',
+    '确定' => 'OK',
+    '取消' => 'Cancel',
+    '已取消删除' => 'Undeleted',
+];

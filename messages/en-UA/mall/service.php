@@ -1,0 +1,36 @@
+<?php
+return [
+// views/mall/service/edit
+    '服务' => 'Service',
+    '服务编辑' => 'Service Edit',
+    '例如' => 'For example: genuine guarantee | fast delivery | 7 days return and exchange',
+    '商品服务标识' => 'Commodity service identification',
+    '建议尺寸' => 'Recommended size',
+    '选择图片' => 'Select picture',
+    '恢复默认' => 'Restore default',
+    '查看图例' => 'View legend',
+    '保存' => 'Save',
+    '查看商品服务标识图例' => 'View the legend of product service identification',
+    '我知道了' => 'I know',
+    '请输入服务名称' => 'Please enter the service name',
+    '请输入排序' => 'Please enter the sort',
+    // views/mall/service/index
+    '服务列表' => 'Service list',
+    '添加服务' => 'Add service',
+    '请输入搜索内容' => 'Please enter the search content',
+    '服务名称' => 'Service name',
+    '备注' => 'Remarks',
+    '服务标识' => 'Service ID',
+    '是否默认' => 'Is it default',
+    '排序' => 'sort',
+    '添加日期' => 'Add date',
+    '操作' => 'Operation',
+    '编辑' => 'Edit',
+    '删除' => 'Delete',
+    '提示' => 'Prompt',
+    '确定' => 'OK',
+    '删除该条数据' => 'Delete this piece of data, do you want to continue?',
+    '取消' => 'Cancel',
+    '已取消删除' => 'Undeleted',
+
+];

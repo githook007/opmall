@@ -1,0 +1,31 @@
+<?php
+return [
+// views/mall/video/edit
+    '视频' => 'Video',
+    '视频编辑' => 'Video editing',
+    '标题' => 'Title',
+    '视频来源' => 'Video source',
+    '源地址' => 'source address',
+    '腾讯' => 'Tencent',
+    '视频链接' => 'Video link',
+    '请输入链接' => 'Please enter the link',
+    '支持格式mp4' => 'Support format mp4; Support encoding H.264; Video size cannot exceed 50 MB',
+    '选择文件' => 'Select file',
+    '视频预览' => 'Video preview',
+    '封面图' => 'Cover image',
+    '建议尺寸' => 'Recommended size',
+    '选择图片' => 'Select picture',
+    '排序' => 'sort',
+    '详情介绍' => 'Detailed introduction',
+    '保存' => 'Save',
+    '标题不能为空' => 'Title cannot be empty',
+    '标题长度在1' => 'The title length is within 1-30 characters',
+    '排序必须在9位整数内' => 'Sort must be within 9 digits',
+    // views/mall/video/index
+    '添加视频' => 'Add video',
+    '编辑' => 'Edit',
+    '删除' => 'Delete',
+    '排序：' => 'Sort:',
+    '确认删除该记录吗' => 'Are you sure to delete this record',
+    '提示' => 'Prompt',
+];

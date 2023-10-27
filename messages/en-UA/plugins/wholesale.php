@@ -1,0 +1,48 @@
+<?php
+return [
+    // plugins/wholesale/Plugin.php
+    '批发设置'         => 'Wholesale settings',
+    '商品管理'         => 'Commodity management',
+    '商品批发'         => 'Commodity wholesale',
+    '批发商品详情'         => 'Wholesale commodity details',
+    '请填写批发商品ID'         => 'Please fill in the wholesale product ID',
+    '商品列表'         => 'Product list',
+    '插件统计'         => 'Plug in Statistics',
+    '批发优惠'         => 'Wholesale discount',
+
+// plugins/wholesale/views/goods/edit
+'编辑商品' => 'Edit product',
+'添加商品' => 'Add goods',
+'批发价设置' => 'wholesale price settings',
+'起批设置' => 'Start batch setting',
+'起批数量' => 'Number of batches',
+'件' => 'pieces',
+'起批数量必须为大于0的整数' => 'The number of batches must be an integer greater than 0',
+'阶梯优惠设置' => 'Ladder discount settings',
+'开启阶梯优惠' => 'Enable ladder discount',
+'优惠方式' => 'preferential method',
+'打折' => 'discount',
+'减钱' => 'Reduce money (yuan)',
+'一阶梯' => 'one step',
+'及以上' => 'and above',
+'打' => 'play',
+'折' => 'fold',
+'减' => 'minus',
+'减钱金额不大于最低价' => 'The amount of money to be reduced is not greater than the lowest price',
+'元' => 'yuan',
+'二阶梯' => 'Second ladder',
+'三阶梯' => 'three steps',
+'规格' => 'Specification',
+'默认' => 'default',
+    // plugins/wholesale/views/setting/index
+'基本设置' => 'basic settings',
+'自定义背景图' => 'custom background image',
+'头部banner图' => 'head banner picture',
+'建议尺寸' => 'Recommended size',
+'选择图标' => 'select icon',
+'恢复默认' => 'Restore default',
+'保存' => 'Save',
+'请选择头部banner图' => 'Please select the header banner image',
+'保存成功' => 'Save successfully',
+
+];

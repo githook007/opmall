@@ -1,0 +1,30 @@
+<?php
+return [
+// views/mall/we7_entry/full
+    '您可创建的小程序数量已满' => 'The number of small programs you can create is full',
+    '请联系官方购买' => 'Please contact the official purchase',
+    '您已开通小程序数量' => 'Number of small programs you have opened',
+    '总授权小程序数量' => 'pieces, the total number of authorized applets',
+    '个' => 'a',
+    // views/mall/we7_entry/local-setting
+    'Redis服务器' => 'Redis server',
+    '请填写Redis服务器的IP或域名' => 'Please fill in the IP or domain name of the Redis server',
+    'Redis配置' => '1. Redis configuration',
+    'Redis端口' => 'Redis port',
+    'Redis的默认端口为6379' => 'The default port of Redis is 6379, if you havent changed it, use the default configuration here',
+    'Redis密码' => 'Redis password',
+    'Redis默认没有密码' => 'Redis does not have a password by default. If you have not configured a Redis password, the password does not need to be filled in',
+    '保存' => 'Save',
+    'Redis配置已保存' => 'Redis configuration saved, please go to step 2 to start and check queue service. ',
+    '启动队列服务' => 'Start queue service',
+    'Linux使用SSH远程登录服务器' => 'Linux uses SSH to log in to the server remotely, run the command:',
+    '测试队列服务' => 'Test queue service',
+    '点击测试' => 'click test',
+    '检测过程最多可能需要两分钟' => 'The detection process may take up to two minutes. ',
+    '请填写Redis服务器' => 'Please fill in the Redis server',
+    '请填写Redis端口' => 'Please fill in the Redis port',
+    '提示' => 'Prompt',
+    '队列服务检测失败' => 'The queue service detection failed, please check whether the queue service is running. ',
+    '恭喜您队列服务已启动完成' => 'Congratulations that the queue service has been started',
+    '进入商城' => 'Enter the mall',
+];

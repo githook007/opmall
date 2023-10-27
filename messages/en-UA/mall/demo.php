@@ -1,0 +1,28 @@
+<?php
+return [
+// views/mall/demo/index
+     '列表标题' => 'List title',
+     '添加项目' => 'Add item',
+     '至' => 'to',
+     '开始日期' => 'start date',
+     '结束日期' => 'End date',
+     '区域一' => 'Area 1',
+     '区域二' => 'Area 2',
+     '状态' => 'Status',
+     'ID' => 'ID/name/data item',
+     '搜索' => 'Search',
+     '名称' => 'name',
+     '数据' => 'Data',
+     '操作' => 'Operation',
+     '其它' => 'other',
+     '编辑' => 'Edit',
+     '删除' => 'Delete',
+     '批量操作' => 'Batch operation',
+     '省市区选择' => 'Province and city selection',
+     '选择省市区' => 'Select province and city',
+     '选择地区' => 'Select region',
+     '确定选择' => 'Confirm selection',
+     '区域' => 'Area:',
+     '删除项目' => 'Delete item',
+     '编辑项目' => 'Edit item',
+];

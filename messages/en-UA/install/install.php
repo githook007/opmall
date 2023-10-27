@@ -1,0 +1,28 @@
+<?php
+return [
+// views/install/index
+    '商城安装' => 'Mall installation',
+    'MySQL数据库配置' => 'MySQL database configuration',
+    '数据库服务器' => 'database server',
+    '请填写数据库服务器的IP或域名' => 'Please fill in the IP or domain name of the database server',
+    '数据库端口' => 'Database port',
+    'MySQL的默认端口为3306' => 'The default port of MySQL is 3306, if you havent changed it, use the default configuration here',
+    '数据库用户' => 'database user',
+    '数据库密码' => 'database password',
+    '数据库名称' => 'database name',
+    'Redis配置' => 'Redis configuration',
+    'Redis服务器' => 'Redis server',
+    '请填写Redis服务器的IP或域名' => 'Please fill in the IP or domain name of the Redis server',
+    'Redis端口' => 'Redis port',
+    'Redis的默认端口为6379' => 'The default port of Redis is 6379, if you havent changed it, use the default configuration here',
+    'Redis密码' => 'Redis password',
+    'Redis默认没有密码' => 'Redis does not have a password by default, if you have not configured a Redis password, the password does not need to be filled in',
+    '超级管理员' => 'Super administrator',
+    '管理员账号' => 'Administrator account',
+    '管理员密码' => 'Administrator password',
+    '立即安装' => 'Install now',
+    '端口号必须是数字' => 'The port number must be a number',
+    '端口号范围是0' => 'The port number range is 0~65535',
+    '不能为空' => 'Cannot be empty',
+    '提示' => 'Prompt',
+];

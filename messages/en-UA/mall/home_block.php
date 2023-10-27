@@ -1,0 +1,30 @@
+<?php
+return [
+// views/mall/home_block/edit
+    '图片魔方编辑' => 'Picture cube editing',
+    '魔方名称' => 'Cube name',
+    '样式选择' => 'Style selection',
+    '启用该样式' => 'Enable this style',
+    '板块设置' => 'Plate Settings',
+    '选择文件' => 'Select file',
+    '建议尺寸' => 'Recommended size:',
+    '选择链接' => 'Select link',
+    '请先选择样式' => 'Please select the style first',
+    '保存' => 'Save',
+    '请输入魔方名称' => 'Please enter the name of the cube',
+    '请选择样式' => 'Please select a style',
+    // views/mall/home_block/index
+    '图片魔方列表' => 'Picture cube list',
+    '添加图片魔方' => 'Add picture cube',
+    '请输入搜索内容' => 'Please enter the search content',
+    '名称' => 'name',
+    '创建日期' => 'Creation date',
+    '操作' => 'Operation',
+    '编辑' => 'Edit',
+    '删除' => 'Delete',
+    '删除该条数据' => 'Delete this piece of data, whether to continue',
+    '提示' => 'Prompt',
+    '确定' => 'OK',
+    '取消' => 'Cancel',
+    '已取消删除' => 'Undeleted',
+];

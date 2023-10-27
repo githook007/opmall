@@ -1,0 +1,27 @@
+<?php
+return [
+    // views/admin/notice/notice
+    '取消'                        => 'cancel',
+    '发布'                       => 'release',
+    '知道了'                        => 'got it',
+    '编辑公告'             => 'Edit announcement',
+    '公告类型'             => 'Announcement type',
+    '公告内容'          => 'Announcement content',
+    '插入图片'                => 'Insert picture (width 1200)',
+    '预览'                       => 'preview',
+    '历史记录'            => 'Historical records',
+    '查看详情'                  => 'View details',
+    '编辑'                          => 'edit',
+    '删除'                           => 'delete',
+    '公告类型不能为空'            => 'Announcement type cannot be empty',
+    '公告内容不能为空'    => 'Announcement content cannot be empty',
+    '更新公告'           => 'Update announcement',
+    '紧急维护'         => 'Emergency maintenance',
+    '重要通知'              => 'Important notice',
+    '此操作将删除公告'                            => 'This operation will delete the announcement. Do you want to continue?',
+    '提示'                          => 'Tips',
+    '确定'                     => 'determine',
+    '已取消删除'            => 'Deletion cancelled',
+    '是否确认发布公告'                           => 'Confirm the announcement?',
+    '已取消发布'              => 'Publish canceled',
+];

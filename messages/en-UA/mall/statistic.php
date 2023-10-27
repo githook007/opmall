@@ -1,0 +1,31 @@
+<?php
+return [
+// views/mall/statistic/clerk
+    '短信配置' => 'SMS configuration',
+    '核销员业绩' => 'Verification staff performance',
+    '请输入搜索内容' => 'Please enter the search content',
+    '至' => 'to',
+    '开始日期' => 'start date',
+    '结束日期' => 'End date',
+    '日' => 'Day',
+    '清空筛选' => 'Clear filter',
+    '导出报表' => 'Export report',
+    '总业绩' => 'Total performance',
+    '核销订单数' => 'Number of write-off orders/piece',
+    '核销件数' => 'Number of write-off pieces/piece',
+    '核销金额' => 'Writing off amount/yuan',
+    '今日实时业绩' => 'Todays real-time performance',
+    '全部' => 'all',
+    '未完成订单' => 'Incomplete order',
+    '已完成订单' => 'Order completed',
+    '已取消订单' => 'Order cancelled',
+    '售后中订单' => 'After-sale order',
+    '已完成售后订单' => 'After-sales order has been completed',
+    '核销人昵称' => 'The nickname of the write-off person',
+    '联系方式' => 'Contact information',
+    '核销订单数量' => 'Verify order quantity',
+    '核销卡券数量' => 'Number of cards and coupons written off',
+    '累计金额' => 'cumulative amount',
+    '批量操作' => 'Batch operation',
+
+];
